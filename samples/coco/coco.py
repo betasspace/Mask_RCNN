@@ -85,6 +85,8 @@ class CocoConfig(Config):
 
     # Number of classes (including background)
     NUM_CLASSES = 1 + 80  # COCO has 80 classes
+    IMAGE_MIN_DIM = 300
+    IMAGE_MAX_DIM = 512
 
 
 ############################################################
